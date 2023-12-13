@@ -22,3 +22,5 @@ select Customers.name as Customers from Customers
 left outer join Orders 
 on Customers.id=Orders.CustomerId
 where customerID is null
+
+5.
